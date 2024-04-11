@@ -1,0 +1,44 @@
+.start{
+  width: 100px;
+  height: 100px;
+}
+.restart{
+  width: 100px;
+  height: 100px;
+}
+.pause{
+  width: 100px;
+  height: 100px;
+}
+button{
+  border: none;
+  background-color: transparent;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.cronometro-container{
+  background-color: lightblue;
+  width: 550px;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 5%;
+  box-shadow: 0 0 0px;
+}
+h1, .tempo{
+  margin-top: -5px;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  font-size: 80px;
+}
+.tempo{
+  font-size: 50px;
+}
